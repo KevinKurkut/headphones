@@ -55,8 +55,10 @@ h1{
     border: 1px;
     text-decoration: none;
     color: white;
-    background-color: orange;
+    background-color: #FF6565;
     text-transform: uppercase;
+    padding: 20px;
+    margin: 10px;
 
 }
 .btn:hover{
@@ -105,8 +107,45 @@ left: 200px'
 .flex-container{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+/*Our results speak for themselves*/
+.section-our-results{
+    background-image: url(images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  height: 450px;
+  top: 1494px;
+  left: 1px;
+
+}
+.dot-result{
+    width: 190px;
+    height: 190px;
+}
+.result-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.result-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.section-contact-us h1 p{
+   color: black;
 }
 
-
-
-
+input{
+    width: 335px;
+    height: 39px;
+    border: none;
+    text-align: left;
+    border-bottom: 2px black;
+}
+form{
+    text-align: center;
+}

@@ -1,21 +1,52 @@
-* {
-    margin: 0;
-    padding: 0;
+/*header*/
+header{
+    background-image: url(images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
-  h1,h2.h3,h4,h5,h6{
-    font-weight: bold;
-  }
-  ul a{
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+}
+li a{
+    flex-direction: row;
     text-decoration: none;
-  }
-  ul a:hover{
-    text-decoration: none; 
-  }
-  button{
+    color: #FFFFFF;
+    padding: 18px 20px;
+    font-weight: 300;
+    line-height: 15.08px;
+    font-size: 12px;
+    
+}
+a:hover{
+    color: #FF6565;
+}
+
+/*main part*/
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ h1,  p{
+    color: #FFFFFF;
+}
+.btn{
     display: inline-block;
-    width: 150px;
+    width: 162px;
     border-radius: 80px;
     height: 44px;
     border: 1px;
@@ -23,35 +54,14 @@
     color: white;
     background-color: orange;
     text-transform: uppercase;
-  }
-  .btn:hover{
-    opacity: 0.9;
-  }
-  header{
-    height: 800px;
-    background-image: url(images/headphones_hero_1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .header-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-    text-align: center;
-  }
-  ul li{
-    padding: 18px 20px;
-  }
-  .section-title{
-    text-align: center;
-    font-weight: bold;
-  }
-  .descriptive{
-    text-align: center;
-    font-weight: lighter;
-  }
+
+}
+.btn:hover{
+    opacity: o.9;
+}
+.subtitle-content{
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+}
+
